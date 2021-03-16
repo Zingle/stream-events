@@ -121,6 +121,7 @@ interface ServiceMeta {
   id: number,
   uuid: string,
   featureCodes: string[],
+  timezone: string,
 }
 
 interface EventDocumentMeta {
