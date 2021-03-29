@@ -120,6 +120,8 @@ interface MessageMeta {
 interface ServiceMeta {
   id: number,
   uuid: string,
+  name: string,
+  accountId: string,
   featureCodes: string[],
   timezone: string,
 }
