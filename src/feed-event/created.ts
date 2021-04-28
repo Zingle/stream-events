@@ -101,6 +101,7 @@ interface WorkflowMeta {
   id: number,
   uuid: string,
   displayName: string,
+  localTime: number,
 }
 
 interface MessageTemplateMeta {
