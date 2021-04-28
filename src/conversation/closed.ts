@@ -1,6 +1,7 @@
 import {Contact, Message, Service, Workflow} from "./types";
+import {KafkaEvent} from "../types";
 
-export interface ConversationClosedEvent {
+export interface ConversationClosedEvent extends KafkaEvent {
     id: string;
     service?: Service;
     endEvent: Event;

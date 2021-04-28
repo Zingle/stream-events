@@ -1,4 +1,5 @@
 import {Direction} from "../message/constants";
+import {KafkaEvent} from "../types";
 
 interface MessageDetail {
   id: number,
@@ -135,7 +136,7 @@ interface EventDocumentMeta {
   service?: ServiceMeta,
 }
 
-export interface EventDocumentCreatedEvent {
+export interface EventDocumentCreatedEvent extends KafkaEvent {
   doc: EventDocument,
   meta: EventDocumentMeta,
 }
