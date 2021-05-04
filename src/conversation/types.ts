@@ -41,3 +41,17 @@ export interface Service {
     timezone: string;
     hippa: boolean;
 }
+
+export interface ConversationEvent {
+    id: number;
+    uuid: string;
+    feedUuid: string;
+    service?: Service;
+    contact?: Contact;
+    type: string;
+    message?: Message;
+    triggerMessage?: number;
+    triggerWorkflow?: Workflow;
+    triggerUser?: User;
+    createdAt: number;
+}
