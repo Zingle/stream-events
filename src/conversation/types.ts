@@ -30,6 +30,7 @@ interface Meta {
 }
 
 export interface Contact extends Meta {
+    externalId: string;
     segments?: Meta[];
     tags?: Meta[];
 }
@@ -39,7 +40,7 @@ export interface Service {
     name: string;
     accountId: string;
     timezone: string;
-    hippa: boolean;
+    hipaa: boolean;
 }
 
 export interface ConversationEvent {
