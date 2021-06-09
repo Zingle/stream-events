@@ -30,7 +30,7 @@ interface Meta {
 }
 
 export interface Contact extends Meta {
-    externalId: string;
+    externalId?: string;
     segments?: Meta[];
     tags?: Meta[];
 }
