@@ -1,5 +1,5 @@
 {
-  "name": "@mzingle/stream-events",
+  "name": "@zingle/stream-events",
   "version": "0.1.5",
   "description": "",
   "main": "./lib/index.js",
