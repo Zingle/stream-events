@@ -87,7 +87,7 @@ interface ContactMeta {
   segments?: Label[],
   id: number,
   uuid: string,
-  externalId: string,
+  externalId?: string,
   fullName: string,
 }
 
