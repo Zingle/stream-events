@@ -12,5 +12,5 @@ export interface ConversationClosedEvent extends KafkaEvent {
     events: ConversationEvent[];
     contact?: Contact;
     resolutionTime: number;
-    firstResponseTime: number;
+    firstResponseTime?: number;
 }
